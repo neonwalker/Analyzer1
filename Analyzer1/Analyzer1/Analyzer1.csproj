@@ -42,6 +42,8 @@
     <Compile Include="DiagnosticAnalyzer.cs" />
     <Compile Include="MethodPropertyEvent\EventAnalyzer.cs" />
     <Compile Include="MethodPropertyEvent\EventFixer.cs" />
+    <Compile Include="MethodPropertyEvent\MethodParamsAnalyzer.cs" />
+    <Compile Include="MethodPropertyEvent\MethodParamsFixer.cs" />
     <Compile Include="MethodPropertyEvent\PropertyAnalyzer.cs" />
     <Compile Include="MethodPropertyEvent\PropertyFixer.cs" />
     <Compile Include="Variables\LocalVariabelsAnalyzer.cs" />
@@ -56,8 +58,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="StaticInstanceFieldAnalyzer.cs" />
-    <Compile Include="StaticInstanceFieldFixer.cs" />
+    <Compile Include="Fields\StaticInstanceFieldAnalyzer.cs" />
+    <Compile Include="Fields\StaticInstanceFieldFixer.cs" />
     <Compile Include="StringExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
